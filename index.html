@@ -136,7 +136,10 @@
         <div class="whoami">
             <div class="text">
                 <p>
-                    Hi, I'm Egor, an anime fan, femboy, furry, and Linux user. This is my website, which I wrote myself. It contains all sorts of slop and links to other slops. Maybe i improve this website and add more slop!! Please check the links here :3
+                    Hi, Im Egor, an anime fan, femboy, furry, coder and linux user. 
+                    Im 14 y.o. This is my sebsite, which i wrote myself.
+                    It contains many slop and links to other slop. 
+                    If you found it, write that website is shit in my telegram and check links :3
                 </p>
             </div>
             <img class="image" src="content/ava.jpg" alt="Аватарка">
@@ -177,16 +180,10 @@
             </a>
             <img class="banner" src="content/htmldream.gif" alt="htmldream" width="105" height="37">
             <img class="banner" src="content/lol.gif" alt="lol" width="105" height="37">
-            <a href="https://www.last.fm/ru/user/Uwynsk" target="_blank" rel="noopener noreferrer" title="Daniel Myslivets">
-                <img class="banner" src="content/lastfm.png" alt="my love" width="105" height="37">
-            </a>
             <a href="https://www.reddit.com/user/dev1lstrand" target="_blank" rel="noopener noreferrer" title="Daniel Myslivets">
                 <img class="banner" src="content/reddit.png" alt="my love" width="105" height="37">
             </a>
             <img class="banner" src="content/boykisser.png" alt="my love" width="105" height="37">
-            <a href="https://rule34.xxx/" target="_blank" rel="noopener noreferrer" title="Daniel Myslivets">
-                <img class="banner" src="content/rule34.png" alt="my love" width="105" height="37">
-            </a>
             
 
         </div>
@@ -216,30 +213,11 @@
             <img class="meme" src="content/memes/ishak.jpg">
             
         </div>
-        <div style="display: flex; justify-content: center;">
-            <div style="background: rgb(255, 255, 255); color: #000000; padding: 5px 10px; border-radius: 5px;">
-                Курс доллара: <span id="usd">–</span> ₽ | Курс битка: <span id="btc">–</span> $
-            </div>
-        </div>
         <img class="separator" src="content/COLORBAR3.GIF" alt="Разделитель">
         <div class="pixelart">
             <img src="content/memes/boo.gif" style="float: left" width="150px">
             <img src="content/memes/pumpum.gif" style="float: right;" width="110px">
         </div>
-        <div class="counter-container">
-            <img class="counter" 
-                 src="https://count.thatmaidguy.su/@egorkamegasite?name=egorkamegasite&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" 
-                 alt="Счетчик посещений" 
-                 title="Счетчик посещений">
-        </div>
     </div>
-
-    <script>
-        fetch('https://api.exchangerate-api.com/v4/latest/USD')
-        .then(r=>r.json()).then(d=>document.getElementById('usd').textContent=d.rates.RUB.toFixed(2));
-
-        fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
-        .then(r=>r.json()).then(d=>document.getElementById('btc').textContent=d.bitcoin.usd.toLocaleString());
-    </script>
 </body>
 </html>
